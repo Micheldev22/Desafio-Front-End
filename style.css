@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+*{
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: #630707;
+}
+
+#logo{
+    width: 20%;
+   padding: 0 10px;   
+}
+nav {
+    width: 80%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding: 0 10px;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+nav ul li{
+   padding: 0 10px;
+   border-right: solid 1px #fff;    
+}
+nav ul li:last-child{
+    border-right: none;
+}
+nav ul li a{
+    color: white;
+    font-size: 1.5em;
+    font-family: "Heebo", sans-serif;
+    padding: 0 10px;
+    font-weight: bold;
+}
+.banner{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 10px;
+    background-color: #2E0303;
+}
+#title{
+    width: 50%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Luckiest Guy", cursive;
+    justify-content: center;}
+#title-cotent h1{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Luckiest Guy", cursive;
+    font-size: 7em;
+    letter-spacing: 5px;
+}
+
+#title-cotent p{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+}
+#burguer{
+    width: 40%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    font-family: "Heebo", sans-serif;
+    font-size: 1.5em;
+    font-weight: normal;
+    letter-spacing: 5px;
+}
+
+.produtos{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 20px;
+    justify-items: center;
+    background-color: #fff;  
+}
+
+.combo-frontend,
+.combo-fullstack,
+.combo-backend,
+.combo-devops,
+.combo-dba, 
+.combo-qa{
+    width: 100%;  
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
+   
+}
+.combo-frontend:hover,
+.combo-fullstack:hover,
+.combo-backend:hover,
+.combo-devops:hover,
+.combo-dba:hover,
+.combo-qa:hover {
+    border-bottom: 1px solid #630707;
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: 0.5s;
+
+}
+
+    
+.img-product{
+    width: 30%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title-product{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    color: #2E0303;
+    font-family: "Heebo", sans-serif;
+    font-size: 1em;
+    font-weight: bold;
+}
+.text-product p{
+    width: 100%;    
+    padding: 0 10px;;
+    font-family: "Heebo", sans-serif;
+    font-size: 1em;
+    text-align: justify;
+    font-weight: normal;
+    line-height: 1.5em;
+}
+.preco{
+    width: 100%;
+    padding: 0 10px;
+    display: flex;
+    color: #2E0303;
+    font-family: "Heebo", sans-serif;
+    font-weight: bold;
+    align-items: center;
+    justify-content: center;
+}
+.money-product{
+    padding: 0 3px;    
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.real-product{
+    font-size: 2.2em;
+    font-weight: bold;
+}
+.cents-product{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.cards{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+ 
+}
+#card-one, #card-two{
+    width: 40%;
+    padding: 0 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+  
+}
+
+footer{
+    height: 300px;
+    width: 100%;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #2E0303;
+}
+.nav-footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #2E0303;
+}
+
+.nav-footer nav{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.nav-footer nav ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-footer nav ul li{
+    padding: 0 10px;
+    border-right: solid 1px #fff;    
+}
+
+.nav-footer nav ul li:last-child{
+    border-right: none;
+}
+.end-footer p{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    font-family: "Heebo", sans-serif;
+
+}
+.icon-container{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 15px;
+}
+
+.copyright{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 15px;
+    font-family: "Heebo", sans-serif;
+}
